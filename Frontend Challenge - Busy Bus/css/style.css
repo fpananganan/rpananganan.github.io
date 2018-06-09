@@ -1,0 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8F6F2;
+  color: 030303;
+  font-family: sans-serif;
+  font: 16px;
+  line-height: 1.3em;
+}
+
+.container {
+  width: 375px;
+  margin: 0;
+}
+
+head {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  background-color: #F8F6F2;
+  text-align: center;
+}
+
+.Bus-Info {
+  table-layout: fixed;
+  width: 450px;
+  white-space: nowrap;
+}
+
+.row-Bus {
+  width: 10%;
+}
+
+.row-Destination {
+  width: 40%;
+}
+
+.row-Arrival-Times {
+  width: 50%
+}
+
+.row-Status {
+  width: 50%
+}
+
+table {
+  width: 450px;
+}
+
+tbody {
+  text-align: left;
+}
+
+thead {
+  text-align: left;
+}
